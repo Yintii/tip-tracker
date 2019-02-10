@@ -4,12 +4,16 @@ html
         include _header.pug
 
         main
-            div
-                form(action="post")
-                    label(for="address")= "Address"
-                    br
-                    input(type="text" name="address")
-                    input(type="submit" text="Submit")
-            div
-                ul
-                    li= "The list items"
+            div(id="formSide")
+                div
+                    form(action="post")
+                        label(for="address")= "Address"
+                        br
+                        input(type="text" name="address")
+                        input(type="submit" text="Submit")
+                div
+                    ul
+                        li= "The list items"
+            div(id="mapSide")
+                div
+                    img(src="#", alt="Where the map will be", width="200px", height="200px")

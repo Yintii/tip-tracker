@@ -1,3 +1,18 @@
 h1{
     color: blue;
 }
+
+body{
+    height: 100%;
+
+}
+
+#formSide{
+    float:right;
+    margin:auto;
+    width: 50%;
+}
+
+ul{
+    list-style-type: none;
+}
