@@ -1,0 +1,15 @@
+html
+    include _head.pug
+    body
+        include _header.pug
+
+        main
+            div
+                form(action="post")
+                    label(for="address")= "Address"
+                    br
+                    input(type="text" name="address")
+                    input(type="submit" text="Submit")
+            div
+                ul
+                    li= "The list items"
