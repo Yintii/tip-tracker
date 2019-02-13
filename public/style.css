@@ -1,16 +1,26 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: blue;
 }
 
-body{
-    height: 100%;
 
+#map{
+    padding: 1%;
+    margin: 1%;
+    height:80%;
+    width: 46%;
+    border:solid 1px black;
 }
 
 #formSide{
     float:right;
     margin:auto;
-    width: 50%;
+    width: 46%;
 }
 
 ul{
