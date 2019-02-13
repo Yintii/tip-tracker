@@ -5,7 +5,10 @@ html, body{
 }
 
 h1{
-    color: blue;
+    background-color: black;
+    color:white;
+    margin: 1%;
+    padding: 1%;
 }
 
 
@@ -20,9 +23,34 @@ h1{
 #formSide{
     float:right;
     margin:auto;
+    padding: 1%;
+    margin: 1%;
     width: 46%;
+}
+
+input, button{
+    margin:auto;
+    width: 80%;
+}
+
+#query{
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 3%;
+    
+}
+
+#inputbox{
+    border-radius: 25px;
+    border:1px solid black;
+    padding: 2%;
+
 }
 
 ul{
     list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 2%;
 }

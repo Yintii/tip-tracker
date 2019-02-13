@@ -6,11 +6,12 @@ html
         main
             div(id="formSide")
                 div
-                    form(action="post")
+                    form(action="/")
                         label(for="address")= "Address"
                         br
-                        input(type="text" name="address")
-                        input(type="submit" text="Submit")
+                        input(id="inputbox" type="text" name="address")
+                        br
+                        button(id="query" type="submit")= "Submit"
                 div
                     ul
                         li= "The list items"
